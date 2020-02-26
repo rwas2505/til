@@ -1,8 +1,8 @@
 In order to access an instance variable outside of a class, a method is required to make it public.
 
-One way to do this is by defining a reader/getter method within the class. Below, the <code>name</code> and <code>gender</code> methods return the instance variables @name and @gender and make them available publicly.
+One way to do this is by defining a reader/getter method within the class. Below, the `name` and `gender` methods return the instance variables `@name` and `@gender` and make them available publicly.
 
-<code>
+```ruby
 class Person
   def initialize(name, gender)
     @name = name
@@ -21,12 +21,11 @@ end
 john = Person.new("John", "Male")
 puts john.name # => John
 puts john.gender # => Male
-</code>
+```
 
+As a cleaner, simpler alternative, ruby lets us use the `attr_reader` method. As shown, you can call it on multiple variables rather than creating a getter method for each variable.
 
-As a cleaner, simpler alternative, ruby lets us use the <code>attr_reader</code> method. As shown, you can call it on multiple variables rather than creating a getter method for each variable.
-
-<code>
+```ruby
 class Person
   attr_reader :name, :gender
 
@@ -39,4 +38,4 @@ end
 john = Person.new("John", "Male")
 puts john.name
 puts john.gender
-</code>
+```
