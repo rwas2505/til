@@ -36,6 +36,6 @@ class Person
 end
 
 john = Person.new("John", "Male")
-puts john.name
-puts john.gender
+puts john.name # => John
+puts john.gender # => Male
 ```
