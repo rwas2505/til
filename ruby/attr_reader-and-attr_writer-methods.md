@@ -39,3 +39,64 @@ john = Person.new("John", "Male")
 puts john.name # => John
 puts john.gender # => Male
 ```
+
+This also works for setter methods. First we have a setter method defined for name.
+```ruby
+class Person
+  def initialize(name, gender)
+    @name = name
+    @gender = gender
+  end
+
+  def name
+    @name
+  end
+
+  def name=(name)
+    @name = name
+  end
+end
+
+john = Person.new("John", "Male")
+puts john.name # => John
+john.name = "Johnathon"
+puts john.name # => Johnathon
+```
+
+Now using the `attr_writer` method.
+
+```ruby
+class Person
+  attr_reader :name
+  attr_writer :name
+
+  def initialize(name, gender)
+    @name = name
+    @gender = gender
+  end
+end
+
+john = Person.new("John", "Male")
+puts john.name # => John
+john.name = "Johnathon"
+puts john.name # => Johnathon
+```
+
+Finally, `attr_accessor` can be used to make the method both a reader and a writer.
+
+```ruby
+class Person
+  attr_accessor :name, :gender
+
+  def initialize(name, gender)
+    @name = name
+    @gender = gender
+  end
+end
+
+john = Person.new("John", "Male")
+puts john.name # => John
+john.name = "Johnathon"
+puts john.name # => John
+```
+
