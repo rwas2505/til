@@ -5,7 +5,7 @@
   - Command `git add -p` stages parts of a changed file, instead of the entire file. More [here](https://gist.github.com/mattlewissf/9958704)
   - Command `git add --all` adds all changes in the working directory to the staging area but does not yet commit it. 
   - Command `git add file1.txt test.rb trial.py` adds only these 3 files to the staging area
-  - Command `git commit -m "describe changes here"` packs all the staged files into a commit and lets you write a commit message. The commit will then be added to remote local repository once pushed.
+  - Command `git commit -m "describe changes here"` packs all the staged files into a commit and lets you write a commit message. The commit will then be added to remote  repository once pushed.
   - Command `git push origin master` pushes all changes to the remote repository
 
 
