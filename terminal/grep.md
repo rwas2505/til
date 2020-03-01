@@ -1,0 +1,1 @@
+`grep “str” file1 file2 file3` will search files for `str` in terminal and return files with `str`.
