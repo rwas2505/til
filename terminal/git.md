@@ -6,12 +6,13 @@
   - Command `git add --all` adds all changes in the working directory to the staging area but does not yet commit it. 
   - Command `git add file1.txt test.rb trial.py` adds only these 3 files to the staging area
   - Command `git commit -m "describe changes here"` packs all the staged files into a commit and lets you write a commit message. The commit will then be added to remote  repository once pushed.
-  - Command `git push origin master` pushes all changes to the remote repository
-  -ADD GIT CLONE
-  -ADD GIT CHECKOUT -B 'YOUR GITHUB USERNAME'
-  -ADD GIT PUSH ORIGIN BRANCH
-  -ADD GIT PULL ORIGIN MASTER --NO-EDIT
+  - Command `git push origin master` pushes all changes to the remote repository master branch.
+  - Command `git clone <repo url>` will clone the entire remote repository from the URL to your local directory. You can then push back to the master, or make a separate branch and commit or push to the branch.
+  - Command `git checkout -b <username>` will make a new branch for a repository. Run this in your local repository to create a new branch. You can then `git push origin <username>` to push to your remote branch rather than `git push origin master` which would overwrite the master branch.
+  - ADD GIT PULL ORIGIN MASTER --NO-EDIT
 
 
 
   *Some addtional commands and source [here](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)*
+  *Tutorials [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository)*
+  
