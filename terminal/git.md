@@ -14,5 +14,5 @@
 ---
   - *Some addtional commands and source [here](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)*
   - *Tutorials [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository)*
-  - *Great StackOverflow Explanation of fetch, merge, and pull [here](https://stackoverflow.com/questions/21756614/difference-between-git-merge-origin-master-and-git-pull*)
+  - *Great StackOverflow Explanation of fetch, merge, and pull [here](https://stackoverflow.com/questions/21756614/difference-between-git-merge-origin-master-and-git-pull)*
   
