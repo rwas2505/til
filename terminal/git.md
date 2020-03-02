@@ -7,6 +7,10 @@
   - Command `git add file1.txt test.rb trial.py` adds only these 3 files to the staging area
   - Command `git commit -m "describe changes here"` packs all the staged files into a commit and lets you write a commit message. The commit will then be added to remote  repository once pushed.
   - Command `git push origin master` pushes all changes to the remote repository
+  -ADD GIT CLONE
+  -ADD GIT CHECKOUT -B 'YOUR GITHUB USERNAME'
+  -ADD GIT PUSH ORIGIN BRANCH
+  -ADD GIT PULL ORIGIN MASTER --NO-EDIT
 
 
 
