@@ -6,6 +6,8 @@ Once faker is installed, `require 'faker'` in local file.
 
 The below code creates an employee `Class`, and then generates 100 random employees by assigning a `Faker::Name.first_name` to `@first_name` and `Faker::Name.last_name` to `@last_name`. The code will assign a random first and last name to each employee from the faker gem.
 
+Using `.fetch` allows us to assign default values to the instance variables.
+
 ```ruby
 require 'faker'
 
@@ -21,11 +23,7 @@ class Employee
   end
 
   def full_name
-    if @last_name.end_with?("s")
-      "#{first_name} #{last_name}, Esquire"
-    else
       "#{first_name} #{last_name}"
-    end
   end
 end
 
