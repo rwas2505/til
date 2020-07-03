@@ -3,3 +3,10 @@
 
 * ***new:*** allocates memory for the objct and initializes any internal data. We could use *Person* in place of the *var* keyword, but the use of *var* involves less typing and is still just as clear.
     * *example:* *var bob = new Person();* *(Price 148)*
+
+* ***object*** is a C# alias keyword for *System.Object*
+    * *public class Person: System.Object* is the same as
+      *public class Person: object*
+    * Both of the examples above state that the *Person* class is a derived or subclass of *System.Object* type. This is not necessary to tell the complier since all types ulitmately inherit directly or indirectly from *System.Object*
+
+    
