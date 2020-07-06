@@ -20,3 +20,5 @@
 * ***params*** is a C# keyword taht allows you to pass a comma-separated list of parameters of any length as an array. (*p.168*) (*also: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/params*)
 
     
+* ***properties:*** a property is simply a method (or a pair of methods) that acts and looks like a field when you want to get or set a value, thereby simplifying the syntax.
+    * a *readonly* property only has a *get* implementation
