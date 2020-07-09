@@ -22,3 +22,7 @@
     
 * ***properties:*** a property is simply a method (or a pair of methods) that acts and looks like a field when you want to get or set a value, thereby simplifying the syntax.
     * a *readonly* property only has a *get* implementation
+
+* ***instance methods:***are actions that an object does to itself
+
+* ***static methods:*** are actions the type does
